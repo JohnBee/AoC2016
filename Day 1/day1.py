@@ -20,4 +20,4 @@ for m in moves:
         if facing > 3:
             facing = 0
     compas[facing](myPos,int(m[1:]))
-print myPos
+print myPos[0]+myPos[1]
